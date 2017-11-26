@@ -1,10 +1,10 @@
-#1.在pom.xml里修改
+# 1.在pom.xml里修改
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/1.jpg)
-#2.右键项目
+# 2.右键项目
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/2.jpg)
-#3.重新加载maven包，即可导入selenium
+# 3.重新加载maven包，即可导入selenium
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/3.jpg)
-#4.最新的chromedriver与chrome的对应关系表<br>
+# 4.最新的chromedriver与chrome的对应关系表<br>
 chromedriver版本	支持的Chrome版本<br>
 v2.33	v60-62<br>
 v2.32	v59-61<br>
@@ -39,14 +39,14 @@ v2.4	v29-32<br>
 附：<br> 
 所有chromedriver均可在下面链接中下载到：<br>
 http://chromedriver.storage.googleapis.com/index.html<br>
-#5.出现bug
+# 5.出现bug
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/4.png)
 You have a version conflict in Guava. Selenium WebDriver (not WebDriverManager) 
 depends transitively of a given version of Guava, and it seems you are using another 
 one in your project. I would use the latest versions of both.<br>
 修改如下部分：<br>
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/5.png)
-#6.新建test.java,内容如下：<br>
+# 6.新建test.java,内容如下：<br>
 ```Java
 /**
  * Created by tangwei on 2017/11/26.
@@ -71,4 +71,4 @@ public class SeleniumTest {
 }
 ```
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/6.png)
-#7.后续测试参考网址：http://www.denizoguz.com/2015/06/25/using-selenium-chrome-driver-on-mac-os-x/
+# 7.后续测试参考网址：http://www.denizoguz.com/2015/06/25/using-selenium-chrome-driver-on-mac-os-x/
