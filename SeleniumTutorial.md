@@ -43,6 +43,6 @@ http://chromedriver.storage.googleapis.com/index.html<br>
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/4.png)
 You have a version conflict in Guava. Selenium WebDriver (not WebDriverManager) 
 depends transitively of a given version of Guava, and it seems you are using another 
-one in your project. I would use the latest versions of both.
-修改如下部分：
+one in your project. I would use the latest versions of both.<br>
+修改如下部分：<br>
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/5.png)
