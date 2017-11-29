@@ -39,7 +39,7 @@ v2.4	v29-32<br>
 附：<br> 
 所有chromedriver均可在下面链接中下载到：<br>
 http://chromedriver.storage.googleapis.com/index.html<br>
-# 5.出现bug
+# 5.出现bug，按如下修改后，重新运行第二步
 ![Alt text](https://github.com/942860759/DocumentCollection/blob/master/img/4.png)
 You have a version conflict in Guava. Selenium WebDriver (not WebDriverManager) 
 depends transitively of a given version of Guava, and it seems you are using another 
